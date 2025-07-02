@@ -1,0 +1,17 @@
+.button {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #007bff;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.button.secondary {
+  background-color: #007bff;
+  color: #ffffff;
+}

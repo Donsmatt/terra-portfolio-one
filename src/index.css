@@ -7,3 +7,29 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+img {
+  max-width: 100%;
+}
+
+/* UTILITY STYLES */
+
+.container {
+  max-width: 1024px;
+  padding-inline: 2rem;
+  margin: 0 auto;
+}
+
+/* SECTION STYLES */
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .services {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
