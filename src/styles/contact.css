@@ -1,12 +1,12 @@
 .con-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 30px;
   width: 100%;
   color: #666666;
 }
 .con-section1 {
-  width: 45%;
+  width: 50%;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -28,18 +28,20 @@
   font-style: italic;
   font-size: 24px;
   line-height: 1.1;
+ 
 }
 .con-sectionimg {
   display: flex;
   justify-content: flex-start;
   margin-top: 10px;
   gap: 10px;
+  
 }
 .con-sectionimg img {
   width: 20px;
 }
 .con-section2 {
-  width: 35%;
+  width: 50%;
 }
 .con-form {
   display: flex;
@@ -93,6 +95,7 @@
   border: none;
   color: white;
   outline: none;
+  margin-bottom: 20px;
 }
 .span4{
     padding-left: "18px"

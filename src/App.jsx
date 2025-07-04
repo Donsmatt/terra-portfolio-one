@@ -1,18 +1,19 @@
-import ContactUs from "./contact";
-import Project from "./project";
+import ContactUs from "./ui/contact";
+import RootLayout from "./layouts/RootLayout";
+import Project from "./ui/project";
+import Services from "./ui/Services";
 
 function App() {
   return (
-    <div>
-      {/* <header>Navbar Component here...</header> */}
+    <RootLayout>
       <main>
         {/* <h1>DEVHUB</h1>
         <p>Sections go here...</p> */}
-        {/* <Project/> */}
-        <ContactUs/>
+        <Project />
+        <ContactUs />
+        <Services />
       </main>
-      {/* <footer>Footer component here...</footer> */}
-    </div>
+    </RootLayout>
   );
 }
 
