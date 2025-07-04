@@ -1,5 +1,7 @@
 import RootLayout from "./layouts/RootLayout";
-import Services from "./ui/Services";
+import Hero from "./ui/Hero";
+import Service from "./ui/Services";
+
 
 function App() {
   return (
@@ -7,7 +9,9 @@ function App() {
       <main>
         {/* <h1>DEVHUB</h1>
         <p>Sections go here...</p> */}
-        <Services />
+        <Hero />
+        <Service />
+      
       </main>
     </RootLayout>
   );
