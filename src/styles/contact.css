@@ -1,0 +1,237 @@
+.con-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+  color: #666666;
+}
+.con-section1 {
+  width: 50%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.con-p1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #007bff;
+}
+.con-p2 {
+  color: #666666;
+  font-size: 32px;
+  font-weight: bold;
+}
+.con-p3 {
+  width: 90%;
+  margin-top: 5px;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.1;
+ 
+}
+.con-sectionimg {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  gap: 10px;
+  
+}
+.con-sectionimg img {
+  width: 20px;
+}
+.con-section2 {
+  width: 50%;
+}
+.con-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.con-form input {
+  padding: 18px;
+  border-radius: 12px;
+  background-color: #007bff99;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.con-formSubj {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  flex-direction: column;
+}
+.con-formSubj1 {
+  width: 100%;
+  border-radius: 12px;
+  background-color: #007bff99;
+  border: none;
+  padding: 19px;
+  outline: none;
+}
+.con-formSubj2 {
+  width: 100%;
+  height: 25vh;
+  border-radius: 12px;
+  background-color: #007bff99;
+  border: none;
+  padding: 10px;
+  vertical-align: top; 
+
+  margin-top: 15px;
+  outline: none;
+}
+.con-formbutt {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.con-formbutt button {
+  padding: 15px;
+  border-radius: 24px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  outline: none;
+  margin-bottom: 20px;
+}
+.span4{
+    padding-left: "18px"
+}
+.span3{
+color: #666666; padding: 4px;
+}
+.span2{
+    color: #007BFF; padding: 4px;
+}
+.span1{
+padding-left: 5px;
+}
+
+@media (max-width: 480px) {
+    .con-container {
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        
+      }
+      .con-section1 {
+        width: 100%; 
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: blue; */
+      }
+
+      .con-p1 {
+        font-weight: 700;
+        font-size: 20px;
+        color: #007bff;
+        text-align: center;
+      }
+      .con-p2 {
+        color: #666666;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .con-p3 {
+        width: 90%;
+        margin-top: 5px;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 1.1;
+        text-align: center;
+      }
+      .con-section2 {
+        width: 100%;
+        margin-top: 20px;
+    
+      }
+      .con-form input {
+        padding: 10px;
+        border-radius: 12px;
+        background-color: #007bff99;
+        border: none;
+        outline: none;
+      }
+}
+
+@media (max-width: 768px) {
+    .con-container {
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        
+      }
+    .con-section1 {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+     
+
+      .con-p1 {
+        font-weight: 800;
+        font-size: 24px;
+        color: #007bff;
+        text-align: center;
+      }
+      .con-p2 {
+        color: #666666;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .con-p3 {
+        width: 100%;
+        margin-top: 10px;
+        font-style: italic;
+        font-size: 18px;
+        line-height: 1.1;
+        text-align: center;
+        margin-bottom: 10px;
+        
+      }
+
+      .break{
+        display: none;
+      }
+      
+      .con-section2 {
+        width: 100%;
+        margin-top: 20px;
+      }
+      .con-form {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 15px; 
+      }
+      .con-form input {
+        padding: 18px;
+        border-radius: 12px;
+        background-color: #007bff99;
+        border: none;
+        outline: none;
+        width: 100%;
+      }
+      .span4{
+        padding-left: "0px"
+    }
+    .span3{
+    color: #666666; padding-left: 10px;
+    }
+    .span2{
+        color: #007BFF; padding-left: 10px;
+    }
+    .span1{
+    padding-left: px;
+    }
+  }
