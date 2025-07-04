@@ -1,3 +1,4 @@
+import ContactUs from "./contact";
 import Project from "./project";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
       <main>
         {/* <h1>DEVHUB</h1>
         <p>Sections go here...</p> */}
-        <Project/>
+        {/* <Project/> */}
+        <ContactUs/>
       </main>
       {/* <footer>Footer component here...</footer> */}
     </div>

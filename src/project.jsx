@@ -1,4 +1,4 @@
-import "./proncon.css";
+import "./project.css";
 
 export default function Project() {
   return (

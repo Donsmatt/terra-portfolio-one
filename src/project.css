@@ -18,22 +18,19 @@
   width: 125px;
   height: 115px;
 }
-/* .pro-section {
-  width: 85%;
-} */
+
 .pro-p1 {
-  font-size: 20px;
-  font-weight: bolder;
-  color: grey;
+  font-size: 24px;
+  font-weight: 900;
+  color: #666666;
 }
 .pro-p2 {
   padding: 2px;
   width: 85%;
   text-align: center;
   font-weight: bold;
-  /* line-height: 1.5rem; */
   font-style: italic;
-  color: rgb(30 30 30);
+  color: #000000;
 }
 .pro-butt {
   display: flex;
@@ -46,6 +43,9 @@
   border-radius: 20px;
   padding: 2px 5px 0 5px;
   color: white;
+  font-size: 12px;
+  font-weight: 800;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 768px) {
