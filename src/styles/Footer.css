@@ -1,0 +1,18 @@
+.footer {
+  background-color: #007bff;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.footer-icon {
+  font-size: 1rem;
+}
+
+.footer-logo {
+  width: 60px;
+}

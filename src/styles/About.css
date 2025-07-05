@@ -1,0 +1,147 @@
+.about {
+  margin-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.about__profile,
+.about__skills-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about__img {
+  max-width: 50%;
+  height: 100%;
+  border-radius: 1rem;
+  border: none;
+  object-fit: cover;
+}
+
+.about__profile-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about__profile-title {
+  text-decoration: underline;
+  color: #007bff;
+  font-style: italic;
+}
+
+.about__profile-data-container {
+  padding: 0.5rem 2rem;
+  color: #666666;
+  font-style: italic;
+}
+
+.about__profile-data-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__profile-data {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about__skills-title {
+  color: #007bff;
+  text-decoration: underline;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.about__skills-level {
+  width: 50%;
+}
+
+.about__skills-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.about__skills-progress {
+  width: 100%;
+}
+
+.about__skills-label {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #666666;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin: 0.2rem 0;
+}
+
+.progress-fill {
+  background-color: #007bff;
+  height: 100%;
+  transition: width 0.5s ease;
+  border-radius: 2rem;
+}
+
+@media (max-width: 768px) {
+  .about__profile,
+  .about__skills-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about__skills-container {
+    flex-direction: column-reverse;
+  }
+
+  .about__img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-inline: auto;
+  }
+
+  .about__skills-container .about__img {
+    max-width: 90%;
+  }
+
+  .about__profile-info {
+    text-align: center;
+  }
+
+  .about__skills-level {
+    width: 100%;
+  }
+
+  .about__skills-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about__skills-progress {
+    width: 100%;
+  }
+
+  .about__skills-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about {
+    gap: 2rem;
+  }
+}
