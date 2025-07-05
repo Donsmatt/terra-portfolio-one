@@ -63,17 +63,17 @@ export default function ContactUs() {
           </p>
 
           <div className="con-sectionimg">
-            <img src="src/assets/contacticon1.png" />
+            <img src="src/assets/contacticon1.png" loading="lazy" />
             <p>Anthonydavies@gmail.com</p>
           </div>
 
           <div className="con-sectionimg">
-            <img src="src/assets/contacticon1.png" />
+            <img src="src/assets/contacticon1.png" loading="lazy" />
             <p>+234 916 737 7598</p>
           </div>
 
           <div className="con-sectionimg">
-            <img src="src/assets/contacticon2.png" />
+            <img src="src/assets/contacticon2.png" loading="lazy" />
             <p>www.balance.net/Dipo1509</p>
           </div>
 
@@ -82,6 +82,7 @@ export default function ContactUs() {
               <img
                 src="src/assets/contacticon3.png"
                 style={{ width: "20px" }}
+                loading="lazy"
               />
             </div>
             <div>
