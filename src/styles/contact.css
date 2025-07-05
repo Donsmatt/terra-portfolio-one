@@ -21,6 +21,7 @@
   color: #666666;
   font-size: 32px;
   font-weight: bold;
+  font-style: italic;
 }
 .con-p3 {
   width: 90%;
@@ -36,6 +37,9 @@
   margin-top: 10px;
   gap: 10px;
   
+}
+.con-sectionimg p{
+  font-style: italic;
 }
 .con-sectionimg img {
   width: 20px;
@@ -56,6 +60,7 @@
   width: 100%;
   border: none;
   outline: none;
+  font-style: italic;
 }
 .con-formSubj {
   display: flex;
@@ -70,6 +75,7 @@
   border: none;
   padding: 19px;
   outline: none;
+  font-style: italic;
 }
 .con-formSubj2 {
   width: 100%;
@@ -77,11 +83,12 @@
   border-radius: 12px;
   background-color: #007bff99;
   border: none;
-  padding: 10px;
+  padding: 19px;
   vertical-align: top; 
-
+  font-family: inherit;
   margin-top: 15px;
   outline: none;
+  font-style: italic;
 }
 .con-formbutt {
   display: flex;

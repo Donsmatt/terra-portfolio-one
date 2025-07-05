@@ -4,6 +4,7 @@ import "../styles/project.css";
 
 export default function Project() {
   return (
+    
     <div className={"pro-container"}>
       <div className={"pro-content"}>
         <img src="src/assets/waveimg.png" />

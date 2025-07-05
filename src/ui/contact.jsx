@@ -85,7 +85,7 @@ export default function ContactUs() {
               />
             </div>
             <div>
-              <p>
+              <p style={{fontStyle:"italic"}}>
                 195, Adeniyi jones str.
                 <br className="break" /> Ikeja, Lagos State.{" "}
                 <br className="break" /> 100900
