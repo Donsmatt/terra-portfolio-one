@@ -5,7 +5,7 @@ const ServicesCard = ({ img, imgAlt, title, desc }) => {
   return (
     <div className="services__card">
       <div className="services__card-image">
-        <img src={img} alt={imgAlt} />
+        <img src={img} alt={imgAlt} loading="lazy" />
       </div>
       <div className="services__card-content">
         <h2 className="services__card-title">{title}</h2>

@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="container">
         <div className="content">
           <div className="image-area">
-            <img src={heroImg} alt="Hero" />
+            <img src={heroImg} alt="Hero" loading="lazy" />
           </div>
 
           <div className="text-area">
@@ -58,15 +58,15 @@ const Hero = () => {
               </span>
               <div className="avatars">
                 {avatarImages.map((src, i) => (
-                  <img key={i} src={src} alt={`Client ${i + 1}`} />
+                  <img key={i} src={src} alt={`Client ${i + 1}`} loading="lazy" />
                 ))}
               </div>
             </div>
           </div>
 
           <div className="sliderImage ">
-            <img src={Slider2img} alt="Slider2" />
-            <img src={Slider1img} alt="Slider1" />
+            <img src={Slider2img} alt="Slider2" loading="lazy" />
+            <img src={Slider1img} alt="Slider1" loading="lazy" />
           </div>
         </div>
       </div>

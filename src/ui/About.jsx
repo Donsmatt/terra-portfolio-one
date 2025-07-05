@@ -44,7 +44,12 @@ const About = () => {
   return (
     <section className="about container">
       <div className="about__profile">
-        <img src={profileImg} alt="Anthony Davies" className="about__img" />
+        <img
+          src={profileImg}
+          alt="Anthony Davies"
+          className="about__img"
+          loading="lazy"
+        />
         <div className="about__profile-info">
           <div>
             <h3 className="about__profile-title">Basic information:</h3>
@@ -96,7 +101,7 @@ const About = () => {
           <div className="about__skills-level">
             {skillsData.map((data, index) => (
               <div key={index} className="about__skills-wrapper">
-                <img src={data.img} alt={data.label} />
+                <img src={data.img} alt={data.label} loading="lazy" />
                 <div className="about__skills-progress">
                   <p className="about__skills-label">{data.label}</p>
                   <div className="progress-bar">
