@@ -1,10 +1,13 @@
 import "../styles/project.css";
+import waveImg from "../assets/waveimg.png"
+import quizzyImg from "../assets/quizzyimg.png"
+import ounjeImg from "../assets/ounjeimg.png"
 
 export default function Project() {
   return (
     <div className={"pro-container"}>
       <div className={"pro-content"}>
-        <img src="src/assets/waveimg.png" loading="lazy" />
+        <img src={waveImg} loading="lazy" />
         <div className={"pro-section"}>
           <p className={"pro-p1"}>Wave</p>
           <p className={"pro-p2"}>
@@ -21,7 +24,7 @@ export default function Project() {
 
       <div className={"pro-content"}>
         <img
-          src="src/assets/quizzyimg.png"
+          src={quizzyImg}
           style={{ width: "125px", height: "120px" }}
           loading="lazy"
         />
@@ -42,7 +45,7 @@ export default function Project() {
 
       <div className={"pro-content"}>
         <img
-          src="src/assets/ounjeimg.png"
+          src={ounjeImg}
           style={{ width: "140px", height: "125px" }}
           loading="lazy"
         />

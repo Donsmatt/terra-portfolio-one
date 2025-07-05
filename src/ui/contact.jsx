@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "../styles/contact.css";
+import contactIcon1 from "../assets/contacticon1.png";
+import contactIcon2 from "../assets/contacticon2.png";
+import contactIcon3 from "../assets/contacticon3.png";
 
 import Button from "../components/Button";
 
@@ -63,30 +66,30 @@ export default function ContactUs() {
           </p>
 
           <div className="con-sectionimg">
-            <img src="src/assets/contacticon1.png" loading="lazy" />
+            <img src={contactIcon1} loading="lazy" />
             <p>Anthonydavies@gmail.com</p>
           </div>
 
           <div className="con-sectionimg">
-            <img src="src/assets/contacticon1.png" loading="lazy" />
+            <img src={contactIcon1} loading="lazy" />
             <p>+234 916 737 7598</p>
           </div>
 
           <div className="con-sectionimg">
-            <img src="src/assets/contacticon2.png" loading="lazy" />
+            <img src={contactIcon2} loading="lazy" />
             <p>www.balance.net/Dipo1509</p>
           </div>
 
           <div style={{ display: "flex", gap: "5px", marginTop: "10px" }}>
             <div>
               <img
-                src="src/assets/contacticon3.png"
+                src={contactIcon3}
                 style={{ width: "20px" }}
                 loading="lazy"
               />
             </div>
             <div>
-              <p style={{fontStyle:"italic"}}>
+              <p style={{ fontStyle: "italic" }}>
                 195, Adeniyi jones str.
                 <br className="break" /> Ikeja, Lagos State.{" "}
                 <br className="break" /> 100900
