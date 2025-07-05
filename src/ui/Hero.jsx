@@ -1,10 +1,8 @@
-import React from "react";
 import heroImg from "../assets/heroimg.jpg";
 import Slider2img from "../assets/Slider2img.jpg";
 import Slider1img from "../assets/Slider1img.jpg";
 import {
   FaEnvelope,
-  FaPhoneAlt,
   FaBehance,
   FaMapMarkerAlt,
 } from "react-icons/fa";
@@ -32,11 +30,11 @@ const Hero = () => {
             <h1>Hello,</h1>
             <h3>Are you looking for a web developer?</h3>
             <p>
-              A passionate and detail-oriented web developer with experience in
+              A passionate and detail-oriented web developer with experience in
               designing, building, and maintaining dynamic websites and web
-              applications. Proficient in front-end technologies like HTML, CSS,
-              JavaScript, and frameworks such as React, as well as back-end
-              development using Node.js, Python, and database management with
+              applications. Proficient in front-end technologies like HTML, CSS,
+              JavaScript, and frameworks such as React, as well as back-end
+              development using Node.js, Python, and database management with
               MySQL and MongoDB.
             </p>
             <div className="buttons">
