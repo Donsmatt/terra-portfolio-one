@@ -2,14 +2,16 @@ import Button from "./Button";
 import "../styles/Navbar.css";
 import logo from "../assets/logo.png";
 import { useState } from "react";
-import { NavLink } from "react-router";
+import { NavLink, Link } from "react-router";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="navbar container">
-      <img src={logo} alt="DevHub" />
+      <Link to="/">
+        <img src={logo} alt="DevHub" />
+      </Link>
       <button
         className="menu-toggle"
         onClick={() => setMenuOpen((prev) => !prev)}
