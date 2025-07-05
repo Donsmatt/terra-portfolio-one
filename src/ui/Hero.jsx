@@ -1,6 +1,6 @@
 import heroImg from "../assets/heroimg.jpg";
-import Slider2img from "../assets/Slider2img.jpg";
-import Slider1img from "../assets/Slider1img.jpg";
+import Slider2img from "../assets/slider2img.jpg";
+import Slider1img from "../assets/slider1img.jpg";
 import {
   FaEnvelope,
   FaBehance,
